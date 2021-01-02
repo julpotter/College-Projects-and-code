@@ -1,0 +1,164 @@
+<div class="top-bar">
+    <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Didero</li>
+            <li>
+                <a href="#">Account</a>
+                <ul class="menu vertical">
+                    <li><a href="#">Coinbase</a></li>
+                    <li><a href="#">Some Other Exchange</a></li>
+                    <li><a href="#">No One Cares</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li><input type="search" placeholder="Asset to trade"></li>
+            <li>
+                <button type="button" class="button">Go</button>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="grid-x">
+    <div class="cell medium-3 large-3">
+        <div class="grid-container">
+            <div class="cell">
+                <h4>Balance</h4>
+                <table class="unstriped hover">
+                    <thead>
+                    <tr>
+                        <th>Asset</th>
+                        <th>Count</th>
+                        <th>Dids</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>USD</td>
+                        <td>150.00</td>
+                        <td>150.00 d</td>
+                    </tr>
+                    <tr>
+                        <td>BTC</td>
+                        <td>0.2718</td>
+                        <td>1.24 d</td>
+                    </tr>
+                    <tr>
+                        <td>ETH</td>
+                        <td>3.141591</td>
+                        <td>2.72 d</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="cell">
+                <h4>Place Order</h4>
+                <div class="button-group expanded">
+                    <a class="button">Buy</a>
+                    <a class="button">Sell</a>
+                </div>
+                <div class="grid-x">
+                    <div class="cell medium-3">
+                        <ul class="vertical tabs" data-tabs id="order-type-tabs">
+                            <li class="tabs-title is-active"><a href="#market" aria-selected="true">Market</a></li>
+                            <li class="tabs-title"><a data-tabs-target="limit" href="#limit">Limit</a></li>
+                            <li class="tabs-title"><a data-tabs-target="stop" href="#stop">Stop</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell medium-9">
+                        <div class="tabs-content" data-tabs-content="order-type-tabs">
+                            <div class="tabs-panel is-active" id="market">
+                                <label>
+                                    Amount
+                                    <input type="number" value="">
+                                </label>
+                            </div>
+                            <div class="tabs-panel" id="limit">
+                                <label>
+                                    Amount
+                                    <input type="number" value="">
+                                </label>
+                                <label>
+                                    Limit Price
+                                    <input type="number" value="">
+                                </label>
+                            </div>
+                            <div class="tabs-panel" id="stop">
+                                <label>
+                                    Amount
+                                    <input type="number" value="">
+                                </label>
+                                <label>
+                                    Stop Price
+                                    <input type="number" value="">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Fee ≈ 43.432 USD</p>
+                <p>Total ≈ 1.343 BTC</p>
+                <button type="button" class="button expanded">Place Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cell medium-6 large-6">
+        <h4>Chart</h4>
+        <!-- prepare a DOM container with width and height -->
+        <div id="main" style="width: 100%;height:95%;"></div>
+    </div>
+    <div class="cell medium-3 large-3">
+        <h4>Order Book</h4>
+        <table class="unstriped hover">
+            <thead>
+            <tr>
+                <th>Market Size</th>
+                <th>Price (USD)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>400.00</td>
+                <td>4200.00</td>
+            </tr>
+            <tr>
+                <td>1100.00</td>
+                <td>3300.00</td>
+            </tr>
+            <tr>
+                <td>6400.00</td>
+                <td>2400.00</td>
+            </tr>
+            <tr>
+                <td>14000.00</td>
+                <td>1500.00</td>
+            </tr>
+            <tr>
+                <td>Spread</td>
+                <td>100.00 USD</td>
+            </tr>
+            <tr>
+                <td>11400.00</td>
+                <td>1400.00</td>
+            </tr>
+            <tr>
+                <td>2400.00</td>
+                <td>1300.00</td>
+            </tr>
+            <tr>
+                <td>6400.00</td>
+                <td>1200.00</td>
+            </tr>
+            <tr>
+                <td>300.00</td>
+                <td>1100.00</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
