@@ -1,0 +1,20 @@
+{
+  "name": "Bongo Focus",
+  "description": "Focus Brightspace Bongo iFrames",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.brightspace.com/*"],
+      "run_at": "document_idle",
+      "js": ["focus_iframe.js"]
+    }
+  ],
+  "browser_action": {
+      "default_title": "Focus Bongo Virtual Classroom",
+      "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}

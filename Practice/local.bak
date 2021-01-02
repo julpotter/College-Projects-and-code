@@ -1,0 +1,14 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-advanced-reader.ss" "lang")((modname local) (read-case-sensitive #t) (teachpacks ((lib "universe.rkt" "teachpack" "2htdp") (lib "image.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #t #t none #f ((lib "universe.rkt" "teachpack" "2htdp") (lib "image.rkt" "teachpack" "2htdp")) #f)))
+; List of Number -> Number
+; finds the max of the list
+
+(define (find-max lon) (cond
+                         [(> (first lon) (find-max (rest lon))) (first lon)]
+                         [else (find-max (rest lon))]))
+
+; List of Number -> Number
+; finds the max of the list
+
+(define (find-max2 lon) 

@@ -1,0 +1,70 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Feb  7 14:40:12 2019
+
+@author: Julian
+
+
+Really close factors:
+5612592691460157028488501867482051458587407740355339131559497670427820545466264932268319464911726122036348856881906213034456112079790167
+
+Sorta close factors:
+3659495323308306536271677810502584925892308098487368570555091396353554465114336175209260399503250429282404013486036083522552907544940723
+
+Slightly distant factors:
+4203186347211155545407759403310287944739745105712280161537630386886194466890027616072541031930080350590569461440145611070067668431339809
+
+Very distant factors:
+12393740938979106085270960952777498451581397764755964574512615956658333154690831168855730082381367054663701968030817652770409915261551093300252139673702939609824212197857780837597650223306004227756966151861628501
+
+Smaller problem with distant factors:
+3367524723136520599574313651967471262880889111291270088046119
+"""
+from math import sqrt
+N = 100
+
+
+def bigSqrt(N):
+    low = 1
+    high = N
+    s = (low + high) // 2
+
+    while low < high - 1:
+        s = (low + high) // 2
+        if s*s > N:
+            high = s
+        else:
+            low = s
+
+    return s
+
+
+d = bigSqrt(N)
+if d%2 == 0:
+    d -= 1
+
+print N
+print d
+print d*d
+print (d+1)*(d+1)
+print("Square root is " + str(bigSqrt(N)))
+
+while True:
+    if N % d == 0:
+        print d
+        print N/d
+        break
+    else:
+        d -= 2
+        
+        
+def isPerfectSquare(n):
+    x = sqrt(n) - 1
+    print x
+    i = 0
+    while i<=n/2:
+        if (x+i)*(x+i)==N:
+            return True
+        i+=1
+        
+    return False

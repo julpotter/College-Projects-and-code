@@ -1,0 +1,14 @@
+{
+  "name": "Video Speed Control",
+  "description": "Control speed of HTML videos",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Set video speed",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
