@@ -1,0 +1,55 @@
+x.length — finds length of x.
+x++      — adds 1 to x
+&&      — and
+==       — is
+
+words.endsWith(r)
+word.substring(word.length() - r.length(), word.length())
+word.substring(word.length() - r.length());
+
+return immediately ends the method
+
+
+
+line = line.replaceAll ("[^a-zA-Z ]", "") — 
+	^ (not) used to replace all characters not in the alphabet
+
+
+Overloading constructors
+	Sonnet() — defaults
+	Sonnet (String scheme) — build a sonnet according to
+		the scheme
+	Sonnet s = new Sonnet ("ABBACDDCEFFEGG")
+	Sonnet s = new Sonnet ("ABBA", 5) — build 5 stanzas
+	
+
+Static methods that poem writers will find useful:
+	get Word
+	get RhymingWord
+	writeLine (5, "|--|--|--|", "EY0 T")
+
+String s = "Hi There!"
+s.toLowerCase() = "hi there!"
+
+Static fields and methods are associated with the class and not with
+	the objects of the class
+The objects can see/use the static fields/methods, but they are class
+	things. Objects don't get their own.
+
+"\n" — new line
+
+
+PREPROCESSING — big idea in CS. Waste time up front
+	to save time later
+
+Declare x to be an array of strings—
+	String[] x = new String[--];
+
+Singleton pattern 
+pronunciations will be global
+instantiated the first time it is neededd
+checked for every time
+
+Side effects
+Does not return a value, rather, just does the works and leaves
+the change behind.

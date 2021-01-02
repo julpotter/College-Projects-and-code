@@ -1,0 +1,17 @@
+Resonances
+Kepler's 3rd law
+Period^2 = 4pi^2a^3/(GM)
+Resonance
+
+
+For every one orbit of jupiter going around the sun, asteroid goes twice around
+
+Resonance condition:
+P(asteroid)/P(Jupiter) = 1/n
+1:2
+[2:3]
+1:3 
+
+(4pi^2 a^3(asteroid)/(GM) )/4pi^2 a^3(jupiiter)/(GM) = 1/n^2 ==> a(asteroid) = a(jupiter)/n^(2/3)
+a(asteroid) = a(jupiter)n^(-2/3)
+

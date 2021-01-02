@@ -1,0 +1,261 @@
+Quiz
+Next Page
+Page 1 of 2
+Note: It is recommended that you save your response as you complete each question.
+Question 1 (2 points) Question 1 Saved
+An 80-N uniform plank leans against a frictionless wall as shown. The torque (about point P) applied to the plank by the wall is: 
+
+Ch-12_q27
+Question 1 options:
+
+1) 
+
+240 N·m
+
+2) —
+
+120 N·m
+
+3) 
+
+40 N·m
+
+4) 
+
+160 N·m
+
+5) 
+
+60 N·m
+Save
+Question 2 (2 points) Question 2 Saved
+The ultimate strength of a sample is the stress at which the sample:
+Question 2 options:
+
+1) 
+
+returns to its original shape when the stress is removed
+
+2) 
+
+remains underwater
+
+3)  —
+
+breaks
+
+4) 
+
+bends 180°
+
+5) 
+
+does none of these
+Save
+Question 3 (2 points) Question 3 Saved
+Young's modulus can be correctly given in:
+Question 3 options:
+
+1)  —
+
+N/m2
+
+2) 
+
+joules
+
+3) 
+
+N·m/s
+
+4) 
+
+N/m
+
+5) 
+
+N·m
+Save
+Question 4 (2 points) Question 4 Saved
+A 4.0 m steel beam with a cross sectional area of 1.0 × 10–2 m2 and a Young's modulus of 2.0 × 1011 N/m2 is wedged horizontally between two vertical walls. In order to wedge the beam, it is compressed by 0.020 mm. If the coefficient of static friction between the beam and the walls is 0.35, the maximum mass (including its own) it can bear without slipping is:
+Question 4 options:
+
+1) 
+
+700 kg
+
+2) 
+
+36 kg
+
+3) 
+
+70 kg
+
+4)  —
+
+360 kg
+
+5) 
+
+0 kg
+Save
+Question 5 (2 points) Question 5 Saved
+Young's modulus is a proportionality constant that relates the force per unit area applied perpendicularly at the surface of an object to:
+Question 5 options:
+
+1) 
+
+the spring constant
+
+2) --
+
+the fractional change in length
+
+3) 
+
+the pressure
+
+4) 
+
+the shear
+
+5) 
+
+the fractional change in volume
+Save
+Next Page
+Page 1 of 2
+
+Quiz
+Next Page
+Page 2 of 2
+Note: It is recommended that you save your response as you complete each question.
+Question 6 (2 points) Question 6 Saved
+The center of gravity coincides with the center of mass:
+Question 6 options:
+
+1) --
+
+if the center of mass is at the geometrical center of the body
+
+2) 
+
+always
+
+3) 
+
+if the body has a uniform distribution of mass
+
+4) 
+
+never
+
+5) 
+
+if the acceleration due to gravity is uniform over the body
+Save
+Question 7 (2 points) Question 7 Saved
+A uniform ladder is 10 m long and weighs 400 N. It rests with its upper end against a frictionless vertical wall. Its lower end rests on the ground and is prevented from slipping by a peg driven into the ground. The ladder makes a 30° angle with the horizontal. The force exerted on the wall by the ladder is: 
+
+Ch-12_q29
+Question 7 options:
+
+1) 
+
+47 N
+
+2) 
+
+120 N
+
+3) 
+
+460 N
+
+4) --
+
+350 N
+
+5) 
+
+74 N
+Save
+Question 8 (2 points) Question 8 Saved
+A cylinder placed so it can roll on a horizontal table top, with its center of gravity above its geometrical center, is:
+Question 8 options:
+
+1) 
+
+in stable equilibrium
+
+2) --
+
+in unstable equilibrium
+
+3) 
+
+in neutral equilibrium
+
+4) 
+
+not in equilibrium
+
+5) 
+
+none of the above
+Save
+Question 9 (2 points) Question 9 Saved
+A 240-N weight is hung from two ropes as shown. The tension in the horizontal rope has magnitude:
+
+Ch-12_q33
+Question 9 options:
+
+1) 
+
+0 N
+
+2) 
+
+480 N
+
+3) --
+
+420 N
+
+4) 
+
+660 N
+
+5) 
+
+140 N
+Save
+Question 10 (2 points) Question 10 Saved
+To determine if a rigid body is in equilibrium the vector sum of the gravitational forces acting on the particles of the body can be replaced by a single force acting at:
+Question 10 options:
+
+1) 
+
+the center of mass
+
+2) 
+
+the geometrical center
+
+3) --
+
+the center of gravity
+
+4) 
+
+a point on the boundary
+
+5) 
+
+none of the above
+Save
+Next Page
+Page 2 of 2
+
+

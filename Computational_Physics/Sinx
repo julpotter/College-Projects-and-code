@@ -1,0 +1,25 @@
+'''
+sinesum.py
+v. 1 8/27/18
+calculate the sine of an angle from the series expansion
+'''
+
+# Import factorial from numpy
+from numpy import factorial, pi
+
+# Initialization of variables
+# Get the angle from the user
+x = input("Enter the angle in degrees: \n")
+# convert angle to radians
+x = x * pi / 180
+# get the number of terms to compute from user
+N = input("Enter number of terms to compute: \n")
+sum = 0
+
+#create the loop for our calculation
+for j in range (0, N+1):
+    sum = sum + (-1)**j*x**(2*j+1)/factorial(2*j+1)
+
+
+#print out result
+print "sin(x) = ", sum
