@@ -1,0 +1,6 @@
+[submodule "Rust/Interpreter"]
+	path = Rust/Interpreter
+	url = https://github.com/julpotter/College-Projects-and-code
+[submodule "Rust/projects/first-interp"]
+	path = Rust/projects/first-interp
+	url = https://github.com/julpotter/College-Projects-and-code
